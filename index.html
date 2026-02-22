@@ -78,7 +78,10 @@
     </footer>
 
     <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const lastModifiedDate = new Date(document.lastModified);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('last-update').textContent = lastModifiedDate.toLocaleDateString('en-US', options);
+</script>
 </body>
 </html>
