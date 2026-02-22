@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Orazio Nicolosi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <a href="index.html" class="site-title-link">
+                        <h1 class="site-title">Orazio Nicolosi</h1>
+                    </a>
+                    <p class="subtitle">PhD Student in Pure Mathematics</p>
+                    <p class="university">Università degli Studi di Torino</p>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="publications.html" class="nav-link">Publications</a>
+                    <a href="talks.html" class="nav-link">Talks</a>
+                    <a href="teaching.html" class="nav-link">Teaching</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <svg class="icon-contact" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m2 7 10 7 10-7"/>
+                        </svg>
+                        <div>
+                            <h3 class="contact-label">Email</h3>
+                            <a href="mailto:orazio.nicolosi@unito.it" class="contact-link">
+                                orazio.nicolosi@unito.it
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <svg class="icon-contact" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                        <div>
+                            <h3 class="contact-label">Institution</h3>
+                            <p class="contact-text">
+                                Dipartimento di Matematica "Giuseppe Peano"<br>
+                                Università degli Studi di Torino
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <svg class="icon-contact" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <div>
+                            <h3 class="contact-label">Address</h3>
+                            <p class="contact-text">
+                                Via Carlo Alberto 10<br>
+                                10123 Torino, Italy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-email">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <path d="m2 7 10 7 10-7"/>
+                    </svg>
+                    <a href="mailto:orazio.nicolosi@unito.it">orazio.nicolosi@unito.it</a>
+                </div>
+                <a class="copyright" href="https://orazionicolosi.github.io/">© <span id="year"></span> Credit</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
