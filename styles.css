@@ -124,8 +124,8 @@ body {
 }
 
 .profile-image {
-  width: 192px;
-  height: 192px;
+  width: 300px;
+  height: 300px;
   border-radius: 0.5rem;
   border: 2px solid #1e3a8a;
   object-fit: cover;
